@@ -1,4 +1,5 @@
 class ItemsController < ApplicationController
+  skip_before_action :verify_authenticity_token  
   before_action :set_item, only: %i[ show edit update destroy restore ]
 
   # GET /items or /items.json
