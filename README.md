@@ -21,3 +21,34 @@ type
 rails s
 
 
+# Other notes
+I made modifications (rest are from the templates I used) in the following files
+
+### app
+
+
+-> controllers -> items_controller.rb
+
+
+-> services -> all files
+
+
+-> model -> item.rb
+
+
+### db
+
+
+-> migrate -> all files
+
+
+-> schema.rb
+
+
+### config 
+
+-> routes.rb
+
+
+
+
