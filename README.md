@@ -1,3 +1,6 @@
+Author: Anthony Zhao
+
+
 # ON Replit
 Orginally this was written for ruby 3.1.2 (see below) but Replit uses a very old version of ruby. So I copied over my files into the replit base framework since I would have had to move my files into an older version regardless. Here is a link to the replit framework I forked https://replit.com/@replit/Rails-legacy
 
