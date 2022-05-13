@@ -9,7 +9,7 @@ Orginally this was written for ruby 3.1.2 (see below) but Replit uses a very old
 NOTE: I used the default ruby framework to start off the project "rails g scaffold items name"
 
 
-For this project you will need ruby 3.1.2 and Rails 7.0.3 (you need to use the ruby 7 project the top level project is for replit) 
+For this project you will need ruby 3.1.2 and Rails 7.0.3 (use the ruby3version branch) 
 
 
 Navigate to the directory this project is in the terminal
