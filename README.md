@@ -1,3 +1,6 @@
+NOTE: I used the default ruby framework to start off the project "rails g scaffold items name"
+
+
 For this project you will need ruby 3.1.2 and Rails 7.0.3
 
 
