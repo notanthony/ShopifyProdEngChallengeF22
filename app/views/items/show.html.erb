@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @item %>
+
+<div>
+  <%= link_to "Edit this item", edit_item_path(@item) %> |
+  <%= link_to "Back to items", items_path %>
+  <%= link_to "Undelete item", "#{restore_item_path(@item)}"%>
+  <%= form_tag(@item, method: :delete) do %>
+  <%= label_tag(:discard_message, "Delete Message:") %>
+  <%= text_field_tag(:discard_message) %>
+  <%= submit_tag("Delete") %>
+<% end %>
+</div>

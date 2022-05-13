@@ -1,0 +1,17 @@
+
+<div id="<%= dom_id item %>">
+    <p>
+      <strong>Name:</strong>
+      <%= item.name %>
+      <% if item.discarded? %>
+        <div id="<%= dom_id item %>">
+          <p>
+            Deleted
+            <% if !item.discarded_message.nil? %>
+              : 
+              <%= item.discarded_message %>
+            <%end%>
+          </p>
+      <% end %>
+  </p>
+</div>
