@@ -1,24 +1,6 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For this project you will need ruby 3.1.2 and Rails 7.0.3
+Navigate to the directory this project is in cmd
+cd /project/dir
+type
+rails s
+Go to the local host url + "items" so for mac it would be  (http://127.0.0.1:3000/items for mac and http://localhost:3000/items for windows)
