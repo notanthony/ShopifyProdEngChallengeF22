@@ -1,13 +1,15 @@
 For this project you will need ruby 3.1.2 and Rails 7.0.3
 
 
-Navigate to the directory this project is in cmd
+Navigate to the directory this project is in the terminal
 
 
 cd /project/dir
 
 
 type
+
+
 rails s
 
 
