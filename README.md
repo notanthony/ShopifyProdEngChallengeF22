@@ -2,7 +2,7 @@ Author: Anthony Zhao
 
 
 # ON Replit
-Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallangeF22 to use it. 
+Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallengeF22?v=1 to use it. 
 
 
 
