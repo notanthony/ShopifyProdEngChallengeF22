@@ -89,3 +89,8 @@ git checkout ruby3version
 rails s
 
 
+On pc if you need to add an openweather api key to your enviroment variables as WEATHER_API_KEY. Detailed instructions: https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html 
+
+
+Get your api key here:
+https://openweathermap.org/
