@@ -6,10 +6,11 @@ I forked my own repo, https://github.com/notanthony/ShopifyBackendChallengeF22, 
 
 I made modifications in the following files, this includes the changes I made in the forks. 
 
+You can also look at the Weather API Integration commit to see the exact changes I made for the api integration
+
 ###### app
 
 -> apis -> all files
-
 
 
 -> controllers -> items_controller.rb
