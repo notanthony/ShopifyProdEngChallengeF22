@@ -49,7 +49,7 @@ The main branch is a download of the code from Replit. Although I downloaded the
 ###### Replit Usage
 
 
-In order to run the Replt code you can use the public replit here: https://replit.com/@notanthony1/ShopifyBackendFall2022. You can also fork my replit if you want to modify it. 
+In order to run the Replt code you can use the public replit here: https://replit.com/@notanthony1/ShopifyProdEngFall2022?v=1. You can also fork my replit if you want to modify it. 
 
 ###### Forked Replits 
 
