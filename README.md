@@ -2,7 +2,7 @@ Author: Anthony Zhao
 ### Preface
 
 
-I forked my own repo, https://github.com/notanthony/ShopifyBackendChallengeF22, I built off the ruby 3.1.2 version. Then for Replit I forked my own replit, https://replit.com/@notanthony1/ShopifyBackendFall2022, and copied in the new changes I added. For this reason, the Github code may not run on Replit and the code from Replit may not run on Github. For specifc usage instructions please see the sections below.
+I forked my own repo, https://github.com/notanthony/ShopifyBackendChallengeF22, I built off the ruby 3.1.2 version. Then for Replit I forked my own replit, https://replit.com/@notanthony1/ShopifyBackendFall2022, and copied in the new changes I added. The code I wrote is identical however, they run on different versions so the Github code may not run on Replit and the code from Replit may not run on Github. For specifc usage instructions please see the sections below.
 
 I made modifications in the following files, this includes the changes I made in the forks. 
 
