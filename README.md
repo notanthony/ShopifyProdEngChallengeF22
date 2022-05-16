@@ -1,5 +1,6 @@
 Author: Anthony Zhao
-
+### Base Code
+I copied my own repo https://github.com/notanthony/ShopifyBackendChallengeF22 for the base of this repo
 
 # ON Replit
 Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallengeF22?v=1 to use it. 
@@ -22,7 +23,7 @@ Item.delete_all
 ### Preamble:
 
 
-Orginally this was written for ruby 3.1.2 (see below) but Replit uses a very old version of ruby. So I copied over my files into the replit base framework since I would have had to move my files into an older version regardless. Here is a link to the replit framework I forked https://replit.com/@replit/Rails-legacy. This github repo does not work when imported into replit even though it was download directly from replit. Instead fork my replit.
+Replit was giving me problems so I ju
 
 
 
