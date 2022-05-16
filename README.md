@@ -49,11 +49,11 @@ The main branch is a download of the code from Replit. Although I downloaded the
 ###### Replit Usage
 
 
-In order to run the Replt code you can use the public replit here: https://replit.com/@notanthony1/ShopifyBackendFall2022. You can also fork my replit if you want to modify it.
+In order to run the Replt code you can use the public replit here: https://replit.com/@notanthony1/ShopifyBackendFall2022. You can also fork my replit if you want to modify it. 
 
 ###### Forked Replits 
 
-I used a SQLite database and the replit is public so anyone can add entries into the DB. These DB changes may persit in the forked version. If you want to clear the DB run the following commands.
+I used a SQLite database and the replit is public so anyone can add entries into the DB. These DB changes may persit in the forked version. If you want to clear the DB run the following commands. My replit has my key in the enviroment variables but if you want to fork it you need to add your own.
 
 
 bin/rails c 
