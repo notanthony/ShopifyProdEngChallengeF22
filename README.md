@@ -1,8 +1,8 @@
 Author: Anthony Zhao
 
-**Github has the pc code
+**Github has the pc code**
 
-Replit code avaliable here:  https://replit.com/@notanthony1/ShopifyProdEngFall2022?v=1**
+**Replit code avaliable here:  https://replit.com/@notanthony1/ShopifyProdEngFall2022?v=1**
 
 ### Preface
 
