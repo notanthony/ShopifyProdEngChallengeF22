@@ -1,10 +1,26 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Items</h1>
+<% @items.each do |item| %>
+    <div style="color: red">
 
+      <ul>
+        <% item.errors.each do |error| %>
+          <li><%= "For item named\""+ item.name + "\" there was an error: " +error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
 <div id="items">
   <% @items.each do |item| %>
-    <%= render item %>
+    <strong>Name: </strong>
+    <%= item.name %>
+    <br>
+    City: 
+    <%= item.city %>
+    <br>
+    Weather Description: 
+    <%= item.weather_description %>
     <p>
       <%= link_to "Show this item", item %>
     </p>

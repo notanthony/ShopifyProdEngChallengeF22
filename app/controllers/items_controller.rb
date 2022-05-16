@@ -5,6 +5,12 @@ class ItemsController < ApplicationController
   # GET /items or /items.json
   def index
     @items = Item.all
+    @items.each {|item| item.weather_description = item.get_current_weather_description}
+    respond_to do |format|
+      format.html {@items}
+      # If I tried to update the attr_accessor within the model and then included it in the json using "methods:" it would not work
+      format.json { render json:@items, methods: [:weather_description]}
+    end
   end
 
   # GET /items/1 or /items/1.json
@@ -35,7 +41,7 @@ class ItemsController < ApplicationController
     end
   end
 
-  # UNDELETE /items/1 or /items/1.json
+  # GET /items/1/restore /items/1/restore.json
   def restore
     respond_to do |format|
       if AppServices::DiscardableRecordRestorer.call(@item)
@@ -82,6 +88,6 @@ class ItemsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def item_params
-      params.require(:item).permit(:name)
+      params.require(:item).permit(:name, :city)
     end
 end

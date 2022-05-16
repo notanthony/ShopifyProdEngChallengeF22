@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "discard", "~> 1.2"
+gem "httparty"
+

@@ -3,6 +3,9 @@
     <p>
       <strong>Name:</strong>
       <%= item.name %>
+      <br>
+      <strong>City:</strong>
+      <%= item.city%>
       <% if item.discarded? %>
         <div id="<%= dom_id item %>">
           <p>

@@ -1,8 +1,19 @@
 class Item < ApplicationRecord
     include Discard::Model
-    validates :name, presence: true
+    attr_accessor :weather_description
+    validates :name, :city, presence: true
+    validates :city, acceptance: {accept: ['Toronto', 'Vancouver', 'Ottawa', 'Calgary', 'Waterloo']}
     after_discard :validate_discard_message
     after_undiscard :clear_discard_message  
+
+    def get_current_weather_description
+        begin 
+            ApiServices::Weather.get_current_weather({:city => city, :country_code => "CA"})['description']
+        rescue StandardError => e
+            errors.add(:weather_description, "not found, " + e.message)
+            ''
+        end
+    end
 
     private 
         def validate_discard_message

@@ -10,14 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_05_13_041549) do
+ActiveRecord::Schema[7.0].define(version: 2022_05_15_021634) do
   create_table "items", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.datetime "discarded_at"
     t.string "discarded_message"
+    t.string "city"
     t.index ["discarded_at"], name: "index_items_on_discarded_at"
+    t.check_constraint "city IN ('Toronto', 'Vancouver', 'Ottawa', 'Calgary', 'Waterloo')", name: "city_is_valid"
   end
 
 end
