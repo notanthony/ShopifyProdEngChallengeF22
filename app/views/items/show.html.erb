@@ -15,10 +15,13 @@
 <div>
   <%= link_to "Edit this item", edit_item_path(@item) %> |
   <%= link_to "Back to items", items_path %>
+  <% if @item.discarded? %>
   <%= link_to "Undelete item", "#{restore_item_path(@item)}"%>
+  <% else %>
   <%= form_tag(@item, method: :delete) do %>
-  <%= label_tag(:discard_message, "Delete Message:") %>
-  <%= text_field_tag(:discard_message) %>
-  <%= submit_tag("Delete") %>
+  <%= label_tag(:discard_message, "Delete Message:") %>
+  <%= text_field_tag(:discard_message) %>
+  <%= submit_tag("Delete") %>
+  <% end %>
 <% end %>
 </div>
