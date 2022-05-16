@@ -43,7 +43,7 @@ You can also look at the Weather API Integration commit to see the exact changes
 
 ###### Introduction
 
-The main branch is a download of the code from Replit. Although I downloaded the code directly from Replit it does not import back into Replit properly. 
+The replit code framework is different from the github code. The github code is for ruby 3.1.2. The code for replit is available on replit and the code **I wrote** is identical. Since they run on different versions so the Github code may not run on Replit and the code from Replit may not run on Github.
 
 
 ###### Replit Usage
@@ -69,7 +69,7 @@ Item.delete_all
 I used the default ruby framework to start off the project "rails g scaffold items name"
 
 
-For this project you will need ruby 3.1.2 and Rails 7.0.3 and you need to clone the repo and switch to the ruby3version!
+For this project you will need ruby 3.1.2 and Rails 7.0.3 
 
 ###### Usage
 
