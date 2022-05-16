@@ -1,17 +1,58 @@
 Author: Anthony Zhao
-### Base Code
-I copied my own repo https://github.com/notanthony/ShopifyBackendChallengeF22 for the base of this repo
-
-# ON Replit
-Please fork this replit https://replit.com/@notanthony1/ShopifyBackendChallengeF22?v=1 to use it. 
+### Preface
 
 
+I forked my own repo, https://github.com/notanthony/ShopifyBackendChallengeF22, I built off the ruby 3.1.2 version. Then for Replit I forked my own replit, https://replit.com/@notanthony1/ShopifyBackendFall2022, and copied in the new changes I added. For this reason, the Github code may not run on Replit and the code from Replit may not run on Github. For specifc usage instructions please see the sections below.
 
-### PLEASE NOTE: 
-My replit is public and I used an sqlite database. Meaning anyone can add entries into the DB. 
+I made modifications in the following files, this includes the changes I made in the forks. 
+
+###### app
+
+-> apis -> all files
 
 
-### To clear entries of a forked replit run the commands 
+
+-> controllers -> items_controller.rb
+
+
+-> services -> all files
+
+
+-> model -> item.rb
+
+
+###### db
+
+
+-> migrate -> all files
+
+
+-> schema.rb
+
+
+###### config 
+
+-> routes.rb
+
+
+-> application.rb
+
+
+### Replit 
+
+###### Introduction
+
+The main branch is a download of the code from Replit. Although I downloaded the code directly from Replit it does not import back into Replit properly. 
+
+
+###### Replit Usage
+
+
+In order to run the Replt code you can use the public replit here: https://replit.com/@notanthony1/ShopifyBackendFall2022. You can also fork my replit if you want to modify it.
+
+###### Forked Replits 
+
+I used a SQLite database and the replit is public so anyone can add entries into the DB. These DB changes may persit in the forked version. If you want to clear the DB run the following commands.
 
 
 bin/rails c 
@@ -20,23 +61,19 @@ bin/rails c
 Item.delete_all
 
 
-### Preamble:
+### PC Usage
+
+###### Introduction
+
+I used the default ruby framework to start off the project "rails g scaffold items name"
 
 
-Replit was giving me problems so I ju
+For this project you will need ruby 3.1.2 and Rails 7.0.3 and you need to clone the repo and switch to the ruby3version!
+
+###### Usage
 
 
-
-
-# ON Computer
-
-NOTE: I used the default ruby framework to start off the project "rails g scaffold items name"
-
-
-For this project you will need ruby 3.1.2 and Rails 7.0.3 (use the ruby3version branch) 
-
-
-Navigate to the directory this project is in the terminal
+Navigate to the directory this project is in using the terminal
 
 
 cd /project/dir
@@ -49,70 +86,5 @@ git checkout ruby3version
 
 
 rails s
-
-
-# Other notes
-I made modifications (rest are from the templates I used) in the following files
-
-### app
-
-
--> controllers -> items_controller.rb
-
-
--> services -> all files
-
-
--> model -> item.rb
-
-
-### db
-
-
--> migrate -> all files
-
-
--> schema.rb
-
-
-### config 
-
--> routes.rb
-
-
-
-
-### ------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-# Rails on Replit
-
-This is a template to get you started with Rails on Replit. It's ready to go so you can just hit run and start coding!
-
-This template was generated using `rails new` (after you install the `rails` gem from the packager sidebar) so you can always do that if you prefer to set it up from scratch. The only had two make config changes we had to make to run it on Replit:
-
-- bind the app on `0.0.0.0` instead of `localhost` (see `.replit`)
-- allow all hosts (see `config/environments/development.rb`)
-- allow the app to be iframed (see `config/application.rb`)
-
-## Running the app
-
-Simple hit run! You can edit the run command from the `.replit` file.
-
-## Running commands
-
-Start every command with `bundle exec` so that it runs in the context of the installed gems environment. The console pane will give you output from the server but you can run arbitrary command from the shell without stopping the server.
-
-## Database
-
-SQLite would work in development but we don't recommend running it in production. Instead look into using the built-in [Replit database](http://docs.replit.com/misc/database). Otherwise you are welcome to connect databases from your favorite provider. 
-
-## Help
-
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Alternatively you can [ask in the community](https://replit.com/talk/ask). Feel free to report bugs [here](https://replit.com/bugs) and give us feedback [here](https://replit.com/feedback).
 
 
