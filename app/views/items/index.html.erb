@@ -21,6 +21,16 @@
     <br>
     Weather Description: 
     <%= item.weather_description %>
+    <% if item.discarded? %>
+        <div id="<%= dom_id item %>">
+          <p>
+            Deleted
+            <% if !item.discarded_message.nil? %>
+              : 
+              <%= item.discarded_message %>
+            <%end%>
+          </p>
+      <% end %>
     <p>
       <%= link_to "Show this item", item %>
     </p>
